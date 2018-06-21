@@ -8,6 +8,8 @@ before_action :authenticate_user!, only: [:new, :edit, :create, :update, :destro
 
     end
 
+  
+
     def show
 
     	 @group = Group.find(params[:id])
